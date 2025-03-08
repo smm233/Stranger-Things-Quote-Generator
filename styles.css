@@ -19,10 +19,7 @@
  .quote-container {
     background: transparent;
     width: 700px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -31,14 +28,12 @@
 
  .quote-container img {
     width: 500px;
-    top: 20%;
-    margin: 0 auto;
-    position: relative;
+    margin: 20px auto 0 auto;
  }
 
 hr{
     width: 400px;
-    margin: 0 auto;
+    margin: 0 auto 70px auto;
 }
 
  .quote-container blockquote {
@@ -52,7 +47,6 @@ hr{
 
  .quote-container span {
     display: block;
-    margin-top: 10px;
     float: right;
     position: relative;
     font-size: 18px;
