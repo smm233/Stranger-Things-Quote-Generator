@@ -6,8 +6,8 @@ async function getQuote(url) {
     const response = await fetch(url);
     var data = await response.json();
     console.log(data);
-    quote.innerHTML = data.quote;
-    author.innerHTML = data.author;
+    quote.innerHTML = data[0].quote;
+    author.innerHTML = data[0].author;
 }
 
 getQuote(api_url);
