@@ -1,6 +1,6 @@
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
-const api_url = "https://quotes-api-self.vercel.app/quote";
+const api_url = "https://strangerthingsquotes.shadowdev.xyz/api/quotes";
 
 async function getQuote(url) {
     const response = await fetch(url);
