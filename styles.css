@@ -76,10 +76,12 @@ hr{
  }
 
  .quote-container button {
+    font-size: 16px;
+    box-shadow: 0px 0px 20px 5px #ff1515;
     background: #ff1515;
     color: #fff;
     border-radius: 25px;
-    border: 3px solid #ff1515;
+    border: 2px solid #ff1515;
     width: 150px;
     height: 50px;
     display: flex;
