@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+ }
+
+ body {
+    background: #02343F;
+ }
+
+ .quote-container {
+    background: #F0EDCC;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+ }
+
+ .quote-container h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+ }
+
+ .quote-container h2::after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: #02343F;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+ .quote-container blockquote {
+    font-size: 26px;
+    min-height: 110px;
+ }
+
+ .quote-container blockquote::before, .quote-container blockquote::after {
+    content: '"';
+ }
+
+ .quote-container span {
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+ }
+
+ .quote-container span::before {
+     content: '';
+     width: 20px;
+     height: 2px;
+     background: #02343F;
+     position: absolute;
+     top: 50%;
+     left: -30px;
+ }
+
+ .quote-container div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .quote-container button {
+    background: #02343F;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid #02343F;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+ }
+
+ .quote-container button img {
+    width: 20px;
+    margin-right: 10px;
+    background: transparent;
+    color: #333;
+ }
+
+/* .quote-container button:nth-child(2) {
+    background: transparent;
+    color: #333;
+} */
